@@ -21,6 +21,8 @@ public class Employee {
 
     private String email;
 
+    private double salary;
+
     @NonNull
     private Department department;
 }
