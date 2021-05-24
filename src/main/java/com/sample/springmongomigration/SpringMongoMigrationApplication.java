@@ -5,8 +5,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
-@EnableMongock
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@EnableMongock
 public class SpringMongoMigrationApplication {
 
     public static void main(String[] args) {
