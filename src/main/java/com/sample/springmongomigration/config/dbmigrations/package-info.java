@@ -1,4 +1,4 @@
 /**
- * MongoDB database migrations using MongoBee.
+ * MongoDB database migrations using Mongock.
  */
 package com.sample.springmongomigration.config.dbmigrations;
