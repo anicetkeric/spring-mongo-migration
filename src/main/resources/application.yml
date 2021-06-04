@@ -8,9 +8,9 @@ spring:
     mongodb:
       host: localhost
       port: 27017
-      database: mongobee
-      username: admin
-      password: admin
+      database: <<databasename>>
+      username: <<databaseuser>>
+      password: <<databasepassword>>
   jackson:
     serialization:
       fail-on-empty-beans: false
