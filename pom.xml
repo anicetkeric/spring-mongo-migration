@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.sample</groupId>
     <artifactId>spring-mongo-migration</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>spring-mongo-migration</name>
     <description>Demo project for Spring Boot</description>
     <properties>
