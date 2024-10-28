@@ -22,4 +22,6 @@ server:
 
 ####### Mongock Properties ###########
 mongock:
-  change-logs-scan-package: com.sample.springmongomigration.config.dbmigrations
+  migration-scan-package:
+    - com.sample.springmongomigration.config.dbmigrations
+
